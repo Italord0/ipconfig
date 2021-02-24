@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ipconfig</string>
+    <string name="ipconfig">ipconfig</string>
+    <string name="click_on_address_to_copy">Click on address to copy</string>
+    <string name="copied_to_clipboard"> Copied to clipboard! </string>
+    <string name="my_local_ip">My local ip address is :</string>
+</resources>
