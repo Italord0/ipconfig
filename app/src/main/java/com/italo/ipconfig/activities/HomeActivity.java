@@ -1,8 +1,10 @@
 package com.italo.ipconfig.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.util.Log;
+import android.view.View;
 import android.webkit.WebView;
 import android.widget.TextView;
 
@@ -61,6 +63,7 @@ public class HomeActivity extends AppCompatActivity {
                             allElement.attr("src","https://www.find-ip-address.org/"+allElement.attr("src"));
                         }
                     }
+                    stringBuilder.append(element.toString());
                     System.out.println(element);
                 }
 
@@ -86,5 +89,9 @@ public class HomeActivity extends AppCompatActivity {
 
     private void copyIp(){
         Util.copyToClipboard(this,Util.getIPAddress(true));
+    }
+
+    public void onInfo(View view) {
+        startActivity(new Intent(this,InfoActivity.class));
     }
 }

@@ -12,14 +12,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Ipconfig">
-
-        <!--TODO: Mudar a chave do admob -->
-        <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+        <activity android:name=".activities.InfoActivity"/>
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-4669067650078329~3182508404"/>
+            android:value="ca-app-pub-4669067650078329~3182508404" />
 
-        <activity android:name=".activities.HomeActivity"
+        <activity
+            android:name=".activities.HomeActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

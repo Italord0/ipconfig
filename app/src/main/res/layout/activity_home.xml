@@ -7,6 +7,16 @@
     android:background="@color/black"
     tools:context=".activities.HomeActivity">
 
+    <ImageButton
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="16dp"
+        android:onClick="onInfo"
+        android:background="@android:color/transparent"
+        android:src="@android:drawable/ic_dialog_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
     <TextView
         android:id="@+id/title"
         app:layout_constraintTop_toTopOf="parent"
@@ -14,7 +24,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:textSize="50sp"
         android:textColor="@color/green_matrix"
-        android:text="@string/ipconfig"
+        android:text="@string/my_ip"
         android:textAlignment="center"
         android:layout_width="0dp"
         android:layout_height="wrap_content"/>
@@ -24,9 +34,9 @@
         app:layout_constraintTop_toBottomOf="@id/description"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:textSize="50sp"
+        android:textSize="30sp"
         android:textColor="@android:color/white"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:text="192.168.25.1"
         android:textAlignment="center"
         android:layout_width="0dp"

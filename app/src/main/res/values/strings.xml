@@ -1,7 +1,11 @@
 <resources>
-    <string name="app_name">ipconfig</string>
+    <string name="app_name">My IP</string>
     <string name="ipconfig">ipconfig</string>
     <string name="click_on_address_to_copy">Click on address to copy</string>
     <string name="copied_to_clipboard"> Copied to clipboard! </string>
     <string name="my_local_ip">My local ip address is :</string>
+    <string name="my_ip">My IP</string>
+    <string name="write_to_us">Write to me. All suggestions and bug reports are important to make the app better :)</string>
+    <string name="contact_email">italord.melo@gmail.com</string>
+    <string name="copyright">© 2021 Italo Melo</string>
 </resources>
